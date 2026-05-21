@@ -17,10 +17,10 @@ import {
 
 import { LESSONS } from './data';
 import { Sentence, SelfCheck, TabType, ThemeMode } from './types';
-import { ShadowingPlayer } from './components/ShadowingPlayer';
-import { AudioRecorder } from './components/AudioRecorder';
-import { PhraseBank } from './components/PhraseBank';
-import { YouTubeWidget } from './components/YouTubeWidget';
+import { ShadowingPlayer } from './ShadowingPlayer';
+import { AudioRecorder } from './AudioRecorder';
+import { PhraseBank } from './PhraseBank';
+import { YouTubeWidget } from './YouTubeWidget';
 
 export default function App() {
   // Global States
