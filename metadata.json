@@ -1,0 +1,6 @@
+{
+  "name": "Shadowing Coach",
+  "description": "Interactive English shadowing and self-recording application for speaking practice with speech synthesis, recording playback comparison, and interactive phrase bank.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

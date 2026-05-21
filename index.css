@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Sleek Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+/* Accent Pulse and Glow Utility */
+.glow-emerald {
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.15);
+}
+
+.glow-emerald-strong {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Light/Dark clean theme mapping */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  --color-primary: #10B981 !important; /* Emerald-500 */
+  --color-primary-foreground: #000000 !important;
+  --color-background: #0a0a0b !important;
+  --color-card: #121214 !important;
+  --color-muted: #1e1e24 !important;
+  --color-foreground: #f1f5f9 !important;
+}
+
+.light {
+  --color-primary: #10B981 !important; /* Elegant Emerald */
+  --color-primary-foreground: #ffffff !important;
+  --color-background: #f8fafc !important;
+  --color-card: #ffffff !important;
+  --color-muted: #f1f5f9 !important;
+  --color-foreground: #0f172a !important;
+}
+
