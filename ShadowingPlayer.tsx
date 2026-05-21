@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Play, Eye, EyeOff, Check, BookOpen, Volume2, HelpCircle, ArrowRight, Sparkles } from 'lucide-react';
-import { LESSONS } from '../data';
+import { LESSONS } from './data';
 import { Sentence, SelfCheck } from '../types';
 
 interface ShadowingPlayerProps {
